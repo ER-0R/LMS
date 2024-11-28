@@ -39,9 +39,8 @@ CREATE TABLE `authors` (
 --
 
 INSERT INTO `authors` (`author_id`, `author_name`) VALUES
-(102, 'M D Guptaa'),
-(103, 'Chetan Bhagat'),
-(104, 'Munshi Prem Chand');
+(102, 'DR Ram'),
+(103, 'DR Sam');
 
 -- --------------------------------------------------------
 
@@ -83,9 +82,7 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`cat_id`, `cat_name`) VALUES
 (1, 'Computer Science Engineering '),
-(2, 'Novel'),
-(4, 'Motivational'),
-(5, 'Story');
+(2, 'Novel');
 
 -- --------------------------------------------------------
 
@@ -108,8 +105,8 @@ CREATE TABLE `issued_books` (
 --
 
 INSERT INTO `issued_books` (`s_no`, `book_no`, `book_name`, `book_author`, `student_id`, `status`, `issue_date`) VALUES
-(1, 6541, 'Data structure', 'D S Gupta', 4, 1, '0000-00-00 00:00:00'),
-(18, 7845, 'half Girlfriend', 'Chetan Bhagat', 2, 1, '2020-04-22');
+(1, 6541, 'Data structure', 'DR Ram', 4, 1, '0000-00-00 00:00:00'),
+(18, 7845, 'half Girlfriend', 'DR Sam', 2, 1, '2020-04-22');
 
 -- --------------------------------------------------------
 
@@ -131,12 +128,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `mobile`, `address`) VALUES
-(4, 'user', 'user@gmail.com', 'user@1234', 2147483644, 'XYZ Coloney, PQR Nagar , Jaipur'),
-(7, 'hemant', 'hemant@gmail.com', 'hemant@123', 2147483644, 'XYZ Coloney, PQR Nagar , Jaipur');
-
---
--- Indexes for dumped tables
---
+(4, 'user', 'user@gmail.com', 'user@1234', 2147483644, 'thimi, Bhaktapur'),
+(7, 'hemant', 'user2@gmail.com', 'hemant@123', 2147483644, 'Thimi Bhaktapur');
 
 --
 -- Indexes for table `admins`
